@@ -1,6 +1,9 @@
-name: publish
+name: publish-dev
 
-on: [push]
+on:
+  push:
+    branches:
+      - develop
 
 jobs:
   publish-hello-docker-image:
