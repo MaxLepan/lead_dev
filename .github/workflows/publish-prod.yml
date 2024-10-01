@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  publish-hello-docker-image-prod:
+  publish-docker-image-prod:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
